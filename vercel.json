@@ -1,4 +1,4 @@
 {
 	"rewrites": [{ "source": "/(.*)", "destination": "/api/index" }],
-	"config": { "runtime": "python3.9" }
+	"builds": [{ "config": { "runtime": "python3.9" } }]
 }
